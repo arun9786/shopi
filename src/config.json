@@ -1,0 +1,12 @@
+{
+    "firebaseConfig" : {
+        "apiKey": "AIzaSyCpSnKYZ_gGHuZytIFnneThpynkFRfOvGc",
+        "authDomain": "shopi-arun.firebaseapp.com",
+        "projectId": "shopi-arun",
+        "storageBucket": "shopi-arun.appspot.com",
+        "messagingSenderId": "521730760504",
+        "appId": "1:521730760504:web:47869ebe45d1b63eb2abcd",
+        "measurementId": "G-LBKW3JFBFX",
+        "emulatorHost": "http://localhost:3000"
+      }
+}

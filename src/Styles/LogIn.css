@@ -1,0 +1,205 @@
+html{
+    background-color: rgb(225, 223, 223);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    font-family: 'Playfair Display',serif;
+}
+
+.main-container{
+    background-color: rgb(255, 255, 255);
+    padding: 5px 15px 10px 15px;
+    margin: 10px 30% 10px 30%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+#login-title{
+}
+
+.form-label{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0px 7px 3%;
+}
+
+.input-field{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 90%;
+    border: 1px solid rgb(212, 212, 210);
+    border-radius: 3px;
+    font-size: 20px;
+    color: rgb(55, 61, 18);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+#form-password{
+
+}
+
+.div-forgot-remindme{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 3%;
+}
+
+.div-forgot-remindme div{
+    float: left;
+    width: 50%;
+}
+
+#remindme{
+    text-align: left;
+    display: flex;
+    justify-items: center;
+}
+
+#remindme:hover{
+    color: rgb(41, 62, 200);
+    font-size: 25px;
+}
+
+#form-checkbox-remindme{
+    width: 20px;
+    height: 20px;
+}
+
+#remindme label{
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 5px;
+} 
+
+#remindme label:hover{
+    font-size: 23px;
+} 
+
+#form-forgot-password{
+    font-style: italic;
+    text-align: right;
+    margin-right: 1%;
+    font-size: 17px;
+    width: 100%;
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 21px;
+    color: rgb(32, 31, 31);
+    font-weight: bold;
+}
+
+.anchor:hover{
+    color: rgb(41, 62, 200);
+    font-size: 22px;
+}
+
+#form-error-msg{
+    width: 94%;
+    margin: 0px 3% 0px 3%;
+    color: red;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#form-submit{
+    color: white;
+    background-color: rgb(41, 62, 200);
+    padding: 10px;
+    width: 94%;
+    margin: 10px 5px 5px 10px;
+    font-size: 23px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 6px rgb(125, 125, 240);
+}
+
+#form-submit:hover{
+    width: 95%;
+    font-size: 24px;
+}
+
+#form-register{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.form-google{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0px 5% 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-google img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width:1320px){
+    .main-container{
+        margin: 0px 15% 0px 15%;
+    }
+}
+
+
+@media screen and (max-width:1080px){
+    .main-container{
+        margin: 0px 10% 0px 10%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .main-container{
+        margin: 0px 10% 0px 10%;
+    }
+
+    .div-forgot-remindme{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-forgot-remindme div{
+        display: block;
+        float: none;
+        width: 100%;
+        justify-content: left;
+    }
+
+    #form-forgot-password span{
+        display: block;
+        text-align: left;
+    }
+}
+
+@media screen and (max-height:500px){
+    html{
+        height: 120%;    
+    }
+    
+}
+
+@media screen and (max-height:400px){
+    html{
+        height: 200%;    
+    }
+    
+}
